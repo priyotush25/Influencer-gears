@@ -36,7 +36,6 @@
   max-width: 1200px;
   box-sizing: border-box;
   margin: 0 auto;
-  border: 1px solid gray;
 }
 
 img {
@@ -107,4 +106,18 @@ nav h3 {
 
 .banner-img {
   width: 440px;
+}
+
+/* main-section */
+.main-section {
+  margin: 70px auto;
+}
+
+.sponsor-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 35px 60px;
+  border-top: 1px solid rgb(218, 225, 233);
+  border-bottom: 1px solid rgb(218, 225, 233);
 }
