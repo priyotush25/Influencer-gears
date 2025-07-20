@@ -1,0 +1,110 @@
+/* google font link */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+.manrope {
+  font-family: "Manrope", sans-serif;
+}
+
+/* reset element style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 70px;
+  color: rgb(58, 58, 58);
+  font-family: "Poppins", sans-serif;
+}
+
+.base-font {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgb(58, 58, 58);
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  border: 1px solid gray;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.btn {
+  padding: 10px 24px;
+  border-radius: 41px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  background: rgb(224, 44, 109);
+}
+
+/* header style */
+.header-section {
+  margin-top: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 34px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  list-style: none;
+}
+
+.nav-link a {
+  color: rgb(58, 58, 58);
+  text-decoration: none;
+}
+
+nav h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(58, 58, 58);
+  font-family: "Poppins", sans-serif;
+}
+
+/* banner style */
+.banner {
+  padding: 33px 0;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-content {
+  width: 582px;
+}
+
+.banner-content p {
+  margin: 16px auto;
+}
+
+.banner-img {
+  width: 440px;
+}
