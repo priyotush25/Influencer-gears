@@ -183,7 +183,8 @@ nav h3 {
   }
 
   .heading {
-    font-size: 40px;
+    font-size: 35px;
+    line-height: 60px;
   }
 
   /* sponsor responsive style */
@@ -326,4 +327,23 @@ nav h3 {
 
 .features-img img {
   border-radius: 7px;
+}
+
+/* features section responsive style */
+@media screen and (max-width: 576px) {
+  .features-section {
+    width: 95%;
+    gap: 30px;
+    margin-top: 50px;
+    text-align: center;
+    flex-direction: column-reverse;
+  }
+
+  .feature-title {
+    width: 95%;
+    font-size: 24px;
+  }
+  .feature-description {
+    width: 95%;
+  }
 }
