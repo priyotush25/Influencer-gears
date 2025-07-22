@@ -294,3 +294,36 @@ nav h3 {
     margin: 0 auto;
   }
 }
+
+/* features-section style */
+.features-section {
+  margin-top: 100px;
+  display: flex;
+  gap: 96px;
+  align-items: center;
+}
+
+.feature-title {
+  font-size: 38px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: rgb(10, 8, 38);
+}
+.feature-description {
+  width: 501px;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 16px 0;
+  color: rgb(108, 108, 108);
+  font-family: "Poppins", sans-serif;
+}
+.feature-btn {
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 1px;
+  font-family: "Poppins", sans-serif;
+}
+
+.features-img img {
+  border-radius: 7px;
+}
